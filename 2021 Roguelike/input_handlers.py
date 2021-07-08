@@ -21,7 +21,7 @@ class EventHandler(tcod.event.EventDispatch[Action]):
         elif key == tcod.event.K_LEFT:
             action = MovementAction(dx=-1, dy=0)
         elif key == tcod.event.K_RIGHT:
-            action = MovementAction(dx=1, dy=-1)
+            action = MovementAction(dx=1, dy=0)
 
 #Spells?
         elif key==tcod.event.K_q:
